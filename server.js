@@ -34,7 +34,7 @@ app.use('/api/', limiter);
 
 // CORS configuration
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://your-frontend-domain.com'], // Replace with actual frontend domain
+  origin: ['http://localhost:4022', 'https://your-frontend-domain.com'], // Replace with actual frontend domain
   credentials: true,
   optionsSuccessStatus: 200
 }));
